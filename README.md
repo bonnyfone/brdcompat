@@ -23,7 +23,13 @@ Download
 [ ![Download](https://api.bintray.com/packages/bonnyfone/maven/org.bonnyfone.brdcompat/images/download.svg) ](https://bintray.com/bonnyfone/maven/org.bonnyfone.brdcompat/_latestVersion)
 
 ### Gradle dependency
-*(coming soon...)*
+Add the following 'compile' statement in your **build.gradle** file (requires *jCenter* repository):
+```groovie
+dependencies {
+    //...your dependecies
+    compile 'org.bonnyfone:brdcompat:0.1'
+}
+```
 
  How To...
 ----
@@ -45,8 +51,10 @@ BitmapRegionDecoderCompat brd = BitmapRegionDecoderCompat.newInstance(...);
 BitmapRegionDecoderCompat.setForceFallbackImplementation(true);
 ```
 
-Examples of output
+Example
 ----
+Check out the [demo] for a simple usage example.
+
 ![result example](http://s9.postimg.org/afr5dt1mn/brd.png)
 
 Contribute
@@ -72,3 +80,4 @@ limitations under the License.
 ```
 
 [BitmapRegionDecoder]:http://developer.android.com/reference/android/graphics/BitmapRegionDecoder.html
+[demo]:https://github.com/bonnyfone/brdcompat_demo
