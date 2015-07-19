@@ -19,7 +19,11 @@ The standard *BitmapRegionDecoder* (aka *BRD*) requires API level 10.
 
 Download
 ----
-(coming soon...)
+### Manual download (AAR, sources, javadoc)
+[ ![Download](https://api.bintray.com/packages/bonnyfone/maven/org.bonnyfone.brdcompat/images/download.svg) ](https://bintray.com/bonnyfone/maven/org.bonnyfone.brdcompat/_latestVersion)
+
+### Gradle dependency
+*(coming soon...)*
 
  How To...
 ----
