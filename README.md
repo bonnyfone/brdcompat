@@ -47,7 +47,7 @@ BitmapRegionDecoderCompat.setForceFallbackImplementation(true);
 
 Examples of output
 ----
-![result example](http://s13.postimg.org/5okdzjqmv/brd.png)
+![result example](http://s9.postimg.org/afr5dt1mn/brd.png)
 
 Contribute
 ----
