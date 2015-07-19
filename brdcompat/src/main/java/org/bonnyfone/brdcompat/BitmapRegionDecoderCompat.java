@@ -153,6 +153,15 @@ public class BitmapRegionDecoderCompat implements IBitmapRegionDecoder {
         return impl.decodeRegion(rect, options);
     }
 
+    /**
+     * Extracts the "best" rectangle region based on the specified dimensions.
+     * The "best" region means the biggest region of the original (downsampled) image, given the required gravity and output sizes/ratio.
+     * You should use this method when you have a big source image that have to be fit/be partially displayed.
+     * This method will use Gravity.CENTER as default gravity.
+     * @param requiredWidth the required Width
+     * @param requiredHeight the required Height
+     * @return
+     */
     public Bitmap decodeBestRegion(int requiredWidth, int requiredHeight){
         return decodeBestRegion(requiredWidth, requiredHeight, Gravity.CENTER);
     }
