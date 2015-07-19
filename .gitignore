@@ -7,5 +7,6 @@ build.gradle.bintray
 build.gradle.debug
 toggle_bintray.sh
 check_bintray.sh
+publish_bintray.sh
 brdcompat/build.gradle.bintray
 brdcompat/build.gradle.debug

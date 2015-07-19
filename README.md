@@ -4,7 +4,7 @@
 
  > *BitmapRegionDecoder* can be used to decode a rectangle region from an image; it is particularly useful when an original image is large and you only need parts of the image. 
 
-The standard *BitmapRegionDecoder* API (aka *BRD*) requires API level 10. 
+The standard *BitmapRegionDecoder* (aka *BRD*) requires API level 10. 
 
 **BRDCompat extends the compatibility down to API 8 and adds some extra useful methods**.
 
@@ -15,17 +15,17 @@ The standard *BitmapRegionDecoder* API (aka *BRD*) requires API level 10.
 
    
  - Extends compatibility down to **API 8** (from 10)
- - Adds new methods like **decodeBestRegion()**, which extracts the *best* image sub-region given the specified params (required size, gravity). *The best region means the biggest visual portion of the (downsampled) original image given the required gravity and the output sizes/ratio.
+ - Adds new methods like **decodeBestRegion()**, which extracts the *best* image sub-region given the specified params (required size, gravity). The best region means the biggest visual portion of the (downsampled) original image given the required gravity and the output sizes/ratio.
 
 Download
 ----
 (coming soon...)
 
- How To..
+ How To...
 ----
  
  
-### Upgrade from the standard API
+### ...upgrade from the standard API
 
 If you are already using the *BitmapRegionDecoder* API, just change the base class name from *BitmapRegionDecoder* to *BitmapRegionDecoderCompat*.
 
@@ -35,13 +35,13 @@ BitmapRegionDecoderCompat brd = BitmapRegionDecoderCompat.newInstance(...);
 ```
 
 
-### Simulate the fallback for API < 10 on device/emulator running API 10+
+### ...simulate the fallback for API < 10 on device/emulator running API 10+
 **For debug purpose only** you can force the library to work in backward-compatibility mode by invoking the following static method (be sure to do this before the creation of any instance of BRDCompat):
 ```java
 BitmapRegionDecoderCompat.setForceFallbackImplementation(true);
 ```
 
-Example
+Examples of output
 ----
 ![result example](http://s13.postimg.org/5okdzjqmv/brd.png)
 
