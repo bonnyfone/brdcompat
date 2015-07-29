@@ -1,4 +1,5 @@
-# BitmapRegionDecoderCompat
+# BitmapRegionDecoderCompat  
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-brdcompat-green.svg?style=flat)](https://android-arsenal.com/details/1/2199) [ ![Download](https://api.bintray.com/packages/bonnyfone/maven/org.bonnyfone.brdcompat/images/download.svg) ](https://bintray.com/bonnyfone/maven/org.bonnyfone.brdcompat/_latestVersion)
 
 **BitmapRegionDecoderCompat** (*BRDCompat*) is the 'compat' version of the official [BitmapRegionDecoder] API. 
 
@@ -19,9 +20,6 @@ The standard *BitmapRegionDecoder* (aka *BRD*) requires API level 10.
 
 Download
 ----
-### Manual download (AAR, sources, javadoc)
-[ ![Download](https://api.bintray.com/packages/bonnyfone/maven/org.bonnyfone.brdcompat/images/download.svg) ](https://bintray.com/bonnyfone/maven/org.bonnyfone.brdcompat/_latestVersion)
-
 ### Gradle dependency
 Add the following 'compile' statement in your **build.gradle** file (requires *jCenter* repository):
 ```groovie
