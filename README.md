@@ -22,7 +22,7 @@ Download
 ----
 ### Gradle dependency
 Add the following 'compile' statement in your **build.gradle** file (requires *jCenter* repository):
-```groovie
+```groovy
 dependencies {
     //...your dependecies
     compile 'org.bonnyfone:brdcompat:0.1'
